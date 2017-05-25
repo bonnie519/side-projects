@@ -1,13 +1,13 @@
 deployed on Heroku --https://aqueous-citadel-37109.herokuapp.com/
 to do item API written in NodeJS, express framework, MongoDB
 
-Route					  Description
-GET /todos				  get to do items after user authentication
-POST /todos				  add to do items after user authentication
-GET /todos/:id			  get to do item by item id after user authentication
-DELETE /todos/:id		       delete to do item by item id after user authentication
-PATCH /todos/:id		       update to do item by item id after user authentication
-POST /users				  add user after authentication
-GET /users/me			  get user token after authentication
-POST /users/login		       user login via username and password after authentication
-DELETE /users/me/token	       delete user token after authentication
+Route					Description
+GET /todos				get to do items after user authentication
+POST /todos				add to do items after user authentication
+GET /todos/:id			get to do item by item id after user authentication
+DELETE /todos/:id		delete to do item by item id after user authentication
+PATCH /todos/:id		update to do item by item id after user authentication
+POST /users				add user after authentication
+GET /users/me			get user token after authentication
+POST /users/login		user login via username and password after authentication
+DELETE /users/me/token	delete user token after authentication
