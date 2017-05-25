@@ -10,4 +10,4 @@ PATCH /todos/:id		update to do item by item id after user authentication
 POST /users			add user after authentication
 GET /users/me			get user token after authentication
 POST /users/login		user login via username and password after authentication
-DELETE /users/me/token			delete user token after authentication
+DELETE /users/me/token		delete user token after authentication
