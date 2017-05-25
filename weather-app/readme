@@ -1,13 +1,5 @@
-deployed on Heroku --https://aqueous-citadel-37109.herokuapp.com/
-to do item API written in NodeJS, express framework, MongoDB
+a simple weather app in NodeJS, express framework
+The app calls BAIDU Geocode API to turn address to geo coordinates and darksky forecast API to get corresponding weather forecast
+When user enters address within China area, and hits 'submit', they can see the latitude and longitude of that address as well as current temperature and current apparent temperature(temperature which they feel like to be).
 
-Route					Description
-GET /todos				get to do items after user authentication
-POST /todos				add to do items after user authentication
-GET /todos/:id			get to do item by item id after user authentication
-DELETE /todos/:id		delete to do item by item id after user authentication
-PATCH /todos/:id		update to do item by item id after user authentication
-POST /users				add user after authentication
-GET /users/me			get user token after authentication
-POST /users/login		user login via username and password after authentication
-DELETE /users/me/token	delete user token after authentication
+deployed on Heroku -- https://protected-tor-74866.herokuapp.com/
